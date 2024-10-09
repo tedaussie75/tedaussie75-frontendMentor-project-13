@@ -4,7 +4,7 @@ const errorEmail = document.querySelector('.error-email');
 const errorIcon = document.querySelector('.error-icon');
 
 function submitEmail(e) {
-    if(inputEmail.value.length > 0 && inputEmail.value.match(/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$/) == null) {
+    if(inputEmail.value.match(/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$/) == null) {
         inputEmail.parentElement.classList.add('error')
         errorEmail.classList.remove('hide');
         errorIcon.classList.remove('hide');
