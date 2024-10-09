@@ -14,6 +14,9 @@
 body {
     font-family: "Josefin Sans", sans-serif;
     font-size: 16px;
+    background-image: url('./images/bg-pattern-desktop.svg');
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 div.page-container {
@@ -30,7 +33,7 @@ div.page-container .text-content-container {
     display: flex;
     align-items: center;
     flex-direction: column;
-    flex: 1;
+    flex: 1
 }
 
 div.page-container .text-content-container h1 {
@@ -62,7 +65,7 @@ div.page-container .text-content-container p {
 }
 
 div.page-container .text-content-container .content {
-    width: 600px;
+    width: 500px;
     margin-top: 50px;
 }
 
